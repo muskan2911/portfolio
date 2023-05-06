@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="dark-theme">
+	<!-- Fixed left column -->
+<div class="left-column">
+	<img src="profile-photo.jpeg" alt="Profile Photo">
+	<h1>Muskan</h1>
+	<h4>A Student and a Learner</h4>
+	<nav>
+		<ul>
+			<li><a href="#main-content">Home</a></li>
+			<li><a href="#main-content">About</a></li>
+			<li><a href="#qualifications">Education</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+</div>
+
+<!-- Main content -->
+<div class="main-content" id="main-content">
+	<div class="line"></div>
+	<h2>Hi there!</h2>
+	<h1>I am Muskan, </h1>
+	<p>A student and a learner, passionate about web development and design. Constantly improving my skills and learning new technologies to wonders.</p>
+	<section id="qualifications">
+		<div class="line"></div>
+		<h2>My Qualifications</h2>
+		<p>I am pursuing my Bachelor's degree in Computer Science and Engineering from SRMIST, Kattankulathur with a CGPA of 9.69. I have also completed several online courses on web development and design from platforms like Udemy and Coursera.</p>
+		<div class="line"></div>
+		<h2>Resume</h2>
+		<p>You can download my resume by clicking the button below:</p>
+		<a href="resume2.pdf" download><button>Download Resume</button></a>
+	</section>
+	<section id="skills" class="skills">
+		<div class="line"></div>
+		<h2>Skills</h2>
+		<div class="skills-text">
+		  <p>Here are some of the skills I have acquired:</p>
+		</div>
+		<ul>
+		  <li><img src="html.png"><br>HTML</li>
+		  <li><img src="css.png"><br>CSS</li>
+		  <li><img src="js.png"><br>JavaScript</li>
+		  <li><img src="figma.png"><br>Figma</li>
+		  <li><img src="python.jpeg"><br>Python</li>
+		</ul>
+	  </section>
+	  
+	<section id="contact" class="contact-section">
+		<div class="line"></div>
+		<h2>Contact Me</h2>
+		<form>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required><br>
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required><br>
+
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" required></textarea><br>
+
+			<input type="submit" value="Send">
+		</form>
+	</section>
+	<button onclick="topFunction()" class="funky-button" title="Go to top">&#x2665;</button>
+	<script src="script.js"></script>
+</div>
+</body>
+</html>
